@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.platform = :ios, "12.0"
   s.ios.deployment_target = "12.0"
   s.source = { :git => "https://github.com/i-schuetz/SwiftCharts.git", :tag => '0.6.5'}
-  s.source_files = 'SwiftCharts/*.swift', 'SwiftCharts/**/*.swift'
+  s.source_files = 'SwiftCharts/**/*.{swift,h,m}'
   s.frameworks = "Foundation", "UIKit", "CoreGraphics"
   s.swift_version = '5.0'
 end
