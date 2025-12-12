@@ -5,8 +5,8 @@ Pod::Spec.new do |s|
   s.homepage = "https://github.com/i-schuetz/SwiftCharts"
   s.license = { :type => "Apache License, Version 2.0", :file => "LICENSE" }
   s.authors = { "Ivan Schuetz" => "ivanschuetz@gmail.com"} 
-  s.ios.deployment_target = "8.0"
-  s.tvos.deployment_target = "9.0"
+  s.platform = :ios, "12.0"
+  s.ios.deployment_target = "12.0"
   s.source = { :git => "https://github.com/i-schuetz/SwiftCharts.git", :tag => '0.6.5'}
   s.source_files = 'SwiftCharts/*.swift', 'SwiftCharts/**/*.swift'
   s.frameworks = "Foundation", "UIKit", "CoreGraphics"
